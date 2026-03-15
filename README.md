@@ -35,27 +35,27 @@ Initially no frontend is required as this is only the testing and prototyping ph
 
 ## Project Structure
 
+```
 cabinet/
 │
 ├── backend/
-│   │
-|   ├── main.py _(main file)_
-|   ├── config.py _(storing constants and settings)_
-|   ├── council.py _(sending prompts to multiple roles and recieve responses)_
-|   ├── review.py _(models recieve resposnes and are graded)_
-|   ├── chairman.py _(recieves the responses and rankings to give verdict)_
-|   ├── prompts.py _(contains the prompts to be given to each model)_
-|   ├── models.py _(contains data sturctures fo r the system)_
-|   └── utils.py _(helper functions)_
+│   ├── main.py        (main file)
+│   ├── config.py      (stores constants and settings)
+│   ├── council.py     (sends prompts to multiple roles and receives responses)
+│   ├── review.py      (models receive responses and rank/grade them)
+│   ├── chairman.py    (receives responses and rankings to produce final verdict)
+│   ├── prompts.py     (contains prompt templates for each model)
+│   ├── models.py      (data structures used across the system)
+│   └── utils.py       (helper functions)
 │
-├── frontend/ _(to be ignored during the first phase)_
+├── frontend/          (ignored during phase 1)
 │   ├── app.jsx
 │   └── api.js
 │
-├── data/
+├── data/              (stores runtime conversation data)
 │
 └── README.md
-
+```
 
 
 
