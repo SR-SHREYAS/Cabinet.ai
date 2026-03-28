@@ -7,6 +7,7 @@ _(contents are suseptible to changes as per the need)_
 
 The intial stages is of the project is intended to create a basic workflow to create a small functioning centered workbase before continuing . The starter flow would look something like - 
 
+ ```
 User Prompt
    │
    ▼
@@ -23,6 +24,7 @@ Final Response Sythesis
    │
    ▼
 Final Output(Frontend UI)
+```
 
 ## Minimum Version
 
@@ -56,6 +58,7 @@ cabinet/
 │
 └── README.md
 ```
+
 
 
 
